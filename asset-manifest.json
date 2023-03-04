@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/amazoniastore/static/css/main.65fb4580.css",
+    "main.js": "/amazoniastore/static/js/main.71da8967.js",
+    "static/js/787.bbc76347.chunk.js": "/amazoniastore/static/js/787.bbc76347.chunk.js",
+    "static/media/amazonia-logo.png": "/amazoniastore/static/media/amazonia-logo.56f72d78e2afc5658822.png",
+    "index.html": "/amazoniastore/index.html",
+    "main.65fb4580.css.map": "/amazoniastore/static/css/main.65fb4580.css.map",
+    "main.71da8967.js.map": "/amazoniastore/static/js/main.71da8967.js.map",
+    "787.bbc76347.chunk.js.map": "/amazoniastore/static/js/787.bbc76347.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65fb4580.css",
+    "static/js/main.71da8967.js"
+  ]
+}
