@@ -1,4 +1,5 @@
 
+import { textAlign } from '@mui/system';
 import './App.css';
 import Navbar from './components/Navbar';
 //import Product from './components/Product';
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       {/*<Product/>*/}
       <Products/>
+      <h1>NO ME ALCANZO EL TIEMPO PARA TERMINARLO :C</h1>
     </div>
   );
 }
