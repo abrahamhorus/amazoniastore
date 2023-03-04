@@ -1,0 +1,18 @@
+.logo{
+    height: 2rem;
+}
+
+.navbar{
+  background-color: brown;
+  box-shadow: 0 0 20px yellow;
+  margin-bottom: 7rem;
+  position: static;
+}
+
+.hola{
+    text-align: right;
+}
+
+.grow{
+    flex-grow: 1;
+}
