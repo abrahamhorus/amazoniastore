@@ -24,7 +24,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function Product() {
+export default function Product({product: {id, name, productType, image, price, rating, description}}) {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -41,21 +41,21 @@ export default function Product() {
           variant='h5'
           color='textSecondary'
           >
-           {accounting.formatMoney(1200)}
+           {accounting.formatMoney(price)}
           </Typography>
         }
-        title="Tenis Naik"
+        title={name}
         subheader="disponible"
       />
       <CardMedia
         component="img"
-        height="194"
-        image= 'https://http2.mlstatic.com/D_NQ_NP_902739-MLM51796124177_102022-O.webp'
-        alt="tenis naik"
+        height="300"
+        image= {image}
+        title={name}
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-        Tenis Deportivos.
+        {productType}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -80,7 +80,7 @@ export default function Product() {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
          <Typography paragraph>
-          Aqui va la descripcion de Mercado Libre
+          {description}
          </Typography>
            
         </CardContent>

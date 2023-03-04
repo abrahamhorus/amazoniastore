@@ -19,7 +19,7 @@ export default function ButtonAppBar() {
           </IconButton>
           <div className='grow'/>
           <Typography variant="h6" component="p" sx={{ flexGrow: 1 }} className="hola">
-            Hola Hermoso
+            Bienvenido
           </Typography>
           <Button color="inherit" variant='outline'><strong> Sing In</strong></Button>
           <IconButton aria-label='show cart items' color='inherit'>
